@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3561cc</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="lightblack">#4A4949</color>
+    <color name="gray">#ACACAC</color>
+    <color name="ripple">#C4ACACAC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lastthimcolor">#f92a30</color>
+    <color name="my_statusbar_color">#3561cc</color>
+    <color name="shimmercolor">#65FFFFFF</color>
+    <color name="dark_black">#050505</color>
+
+
+
+    <color name="PaleGreen">#98FB98</color>
+    <color name="DarkViolet">#9400D3</color>
+    <color name="MediumPurple">#9370DB</color>
+    <color name="LightGreen">#90EE90</color>
+    <color name="DarkSeaGreen">#8FBC8F</color>
+    <color name="SaddleBrown">#8B4513</color>
+    <color name="DarkMagenta">#8B008B</color>
+    <color name="DarkRed">#8B0000</color>
+    <color name="BlueViolet">#8A2BE2</color>
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="SkyBlue">#87CEEB</color>
+    <color name="Gray">#808080</color>
+    <color name="Olive">#808000</color>
+    <color name="Purple">#800080</color>
+    <color name="Maroon">#800000</color>
+    <color name="Aquamarine">#7FFFD4</color>
+    <color name="Chartreuse">#7FFF00</color>
+    <color name="LawnGreen">#7CFC00</color>
+    <color name="MediumSlateBlue">#7B68EE</color>
+    <color name="LightSlateGray">#778899</color>
+    <color name="SlateGray">#708090</color>
+    <color name="OliveDrab">#6B8E23</color>
+    <color name="SlateBlue">#6A5ACD</color>
+    <color name="DimGray">#696969</color>
+    <color name="MediumAquamarine">#66CDAA</color>
+    <color name="CornflowerBlue">#6495ED</color>
+    <color name="CadetBlue">#5F9EA0</color>
+    <color name="blue_color_picker">#0066FF</color>
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#ffff00</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+    <color name="tool_bg">#151414</color>
+    <color name="semi_black_transparent">#99000000</color>
+    <color name="red">#FF0000</color>
+    <color name="whitetra">#85FFFFFF</color>
+    <color name="dark_yellow">#ffb503</color>
+    <color name="hot_pink">#ff69b4</color>
+    <color name="salmon">#fa8072</color>
+    <color name="indian_red">#cd5c5c</color>
+    <color name="dark_goldenrod">#b8860b</color>
+    <color name="aquamarine">#7fffd4</color>
+    <color name="dark_green">#006400</color>
+    <color name="lawn_green">#7cfc00</color>
+    <color name="khaki">#f0e68c</color>
+    <color name="peach_puff">#ffdab9</color>
+    <color name="snow">#8b8989</color>
+
+
+</resources>

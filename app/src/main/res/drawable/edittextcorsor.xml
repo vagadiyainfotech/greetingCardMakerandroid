@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape android:shape="rectangle">
+        <solid android:color="@color/my_statusbar_color"></solid>
+        <size android:width="2dp"></size>
+    </shape>
+</item>
+</selector>

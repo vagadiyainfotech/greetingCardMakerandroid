@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".activitys.UserDetailActivity">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/shimmer_text"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:id="@+id/mainRL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white">
+                <RelativeLayout
+                    android:id="@+id/toolbar"
+                    android:background="@drawable/toolbarshadow"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/actionBarSize">
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:id="@+id/registerBusinessTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/register_your_business"
+                        android:textColor="@color/black"
+                        android:textSize="22dp" />
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/companyNameRL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/toolbar"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/companyNameTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/company_name"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <EditText
+                        android:id="@+id/companyNameET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/companyNameTV"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittextbg"
+                        android:hint="@string/enter_company_name"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray"
+                        android:textCursorDrawable="@drawable/edittextcorsor"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mobileNumberRL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/companyNameRL"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/mobileNumberTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mobile_number"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <EditText
+                        android:id="@+id/mobileNumberET"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/mobileNumberTV"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittextbg"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="10dp"
+                        android:text="+91"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray"
+                        android:textSize="16dp" />
+
+                    <EditText
+                        android:id="@+id/mobilenumberET2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/mobileNumberTV"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/mobileNumberET"
+                        android:background="@drawable/edittextbg"
+                        android:hint="@string/enter_mobile_number"
+                        android:inputType="phone"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray"
+                        android:textCursorDrawable="@drawable/edittextcorsor"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+
+
+
+
+                <RelativeLayout
+                    android:id="@+id/emailIdRL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mobileNumberRL"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/emailIdTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email_id"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+
+
+                    <EditText
+                        android:id="@+id/emailIdET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/emailIdTV"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittextbg"
+                        android:hint="@string/enter_email_id"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray"
+                        android:textCursorDrawable="@drawable/edittextcorsor"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/companyAddressRL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/emailIdRL"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/companyAddressTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/company_address"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+
+                    <EditText
+                        android:id="@+id/companyAddressET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/companyAddressTV"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittextbg"
+                        android:gravity="top"
+                        android:hint="@string/enter_company_address"
+                        android:inputType="textMultiLine"
+                        android:lines="4"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="10dp"
+                        android:singleLine="false"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray"
+                        android:textCursorDrawable="@drawable/edittextcorsor"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/uploadLogoRL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/companyAddressRL"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/uploadLogoTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/upload_logo"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <RelativeLayout
+                        android:id="@+id/uploadLogoClickRL"
+                        android:layout_width="100dp"
+                        android:layout_height="150dp"
+                        android:layout_below="@+id/uploadLogoTV"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/edittextbg"
+                        android:padding="5dp"
+                        android:src="@drawable/edittextbg">
+
+                        <ImageView
+                            android:id="@+id/LogoImage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="fitXY"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/ic_add" />
+
+                        <TextView
+                            android:id="@+id/addLogoTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/LogoImage"
+                            android:layout_centerInParent="true"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/add_logo"></TextView>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
+
+        <io.supercharge.shimmerlayout.ShimmerLayout
+            android:id="@+id/shimmer_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/saveBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbg"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+        </io.supercharge.shimmerlayout.ShimmerLayout>
+
+    </RelativeLayout>
+</layout>
